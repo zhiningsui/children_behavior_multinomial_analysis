@@ -15,6 +15,8 @@ We run four models,
 ### `code`: This folder contains two R files.
 1. `run_multinomial.R`: the code required to run the multinomial analysis.
 2. `results_analysis_newest.R`: the code required to analyze the results from fitting the models. Figures and tables shown in the manuscript are created using this R file.
+3. `descriptive_statistics.R`: the code required to do descriptive analysis and create figures.
+4. `sensitivity_prior.R`: the code required to do sensitivity analysis of the priors.
 
 ### `output`: This folder contains the following files.
 1. Files ends with `*_corr.csv`: contains the correlation between the random effects (rows starting with "Rho").
