@@ -22,7 +22,7 @@ We run four models,
 1. Files ends with `*_corr.csv`: contains the correlation between the random effects (rows starting with "Rho").
 2. Files ends with `*_random_effect.csv`: contains the variance of the random effects (rows starting with "sigma") and the intercepts (rows starting with "a").
 3. `WAIC.csv`: contains the WAIC values for four models.
-4. In the subfolder `figure`:
+4. In the subfolder `figures`:
 - Figures starts with `heatmap` are the heatmaps for the correlation between individual random effect across different behaviors.
 - Figures starts with `predicted` are the predicted probabilities of different behaviors at different values of covariate as specified in the filenames.
 5. In the subfolder `table`:
